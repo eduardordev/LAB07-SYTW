@@ -1,0 +1,23 @@
+{
+  "name": "LAB07-SYTW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardorh1312/LAB07-SYTW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardorh1312/LAB07-SYTW/issues"
+  },
+  "homepage": "https://github.com/eduardorh1312/LAB07-SYTW#readme",
+  "devDependencies": {
+    "webpack": "^5.23.0"
+  }
+}
