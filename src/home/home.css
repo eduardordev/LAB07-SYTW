@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 body{
     background-image: url(../imgs/sky.jpg);
     height: auto;
     width: auto;
+    font-family: 'Krona One', sans-serif;
+}
+
+#header_home{
+    text-align: center;
+    text-align: justify;
+}
+
+#navBar{
+    background-color: black;
+    border: black;
+    height: 60px;
+    width: 100%;
+}
+#a1{
+    color: white;
 }
 
 #divhome{
     height: auto;
     width: 100vh;
     margin: auto;
+    text-align:justify;
 }
 #p1{
     filter: blur(none);
