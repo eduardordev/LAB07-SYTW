@@ -1,0 +1,14 @@
+body{
+    background-image: url(../imgs/sky.jpg);
+    height: auto;
+    width: auto;
+}
+
+#divhome{
+    height: auto;
+    width: 100vh;
+    margin: auto;
+}
+#p1{
+    filter: blur(none);
+}
