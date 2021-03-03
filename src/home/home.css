@@ -6,26 +6,87 @@ body{
     font-family: 'Krona One', sans-serif;
 }
 
+.container{
+    
+    
+    display: inline-block;
+    
+}
+
 #header_home{
-    text-align: center;
-    text-align: justify;
+    color:white;
+    
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#t_home{
+    float: left;
+    color: white;
+    margin-left: 35px;
+    margin-right: 235px;
 }
 
 #navBar{
-    background-color: black;
-    border: black;
-    height: 60px;
-    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+   
+    
 }
 #a1{
+    
     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 0;
+
+}
+
+#dcont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #divhome{
-    height: auto;
-    width: 100vh;
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
     margin: auto;
     text-align:justify;
+    display: flex;
+    flex-direction: row;
+}
+
+#divs{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align:justify;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#img1{
+    border: none;
+    border-radius: 5px;
 }
 #p1{
     filter: blur(none);
